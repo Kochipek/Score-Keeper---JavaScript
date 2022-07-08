@@ -1,0 +1,111 @@
+html{
+    font-family: 'Press Start 2P', cursive;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    background: url(pixel-art-game-background-grass-sky-clouds_210544-60.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+span{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+select{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    width: 50%;
+    border: 1px solid var(#9a1cc1);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 0.8rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: rgb(255, 255, 255);
+}
+
+.winner{
+    color: rgb(80, 185, 80);
+}
+
+.loser{
+    color: rgb(165, 31, 31);
+}
+.container{
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    box-shadow: -11px -4px 7px -5px rgba(0,0,0,0.6);
+}
+button{
+    font-family: 'Press Start 2P', cursive;
+}
+.buttonp1{
+        border-radius: 27px;
+          font-size: 10px;
+          letter-spacing: 2px;
+          font-weight: 400 !important;
+          background-color: #d3c207;
+          color: #fff;
+          padding: 15px 20px;
+          margin: 20px;
+          text-align: center;
+          display: inline-block;
+          text-decoration: none;
+          border: 0px;
+          width: max-content;
+      }
+
+.buttonp2{
+    border-radius: 27px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: #4d96fc;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+}
+
+.resetbutton{
+
+    border-radius: 27px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgba(215, 0, 0, 0.774);
+    color: #fff;
+    padding: 15px 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+}
+.players{
+    display: flex;
+    justify-content: space-evenly;
+
+}

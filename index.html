@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="panel">
+<div class="players">
+    <p>player1</p>
+    <p>player2</p>
+</div>
+    <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
+    <div class="selectordiv">
+    <select name="winNumber" id="winNumber">
+        <option value="" disabled selected>Select winning score</option>
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="12">12</option>
+    </select>
+</div>
+    <button id="p1Button" class="buttonp1">+1 Player One</button>
+    <button id="p2Button" class="buttonp2">+1 Player Two</button>
+    <div class="resetdiv">
+        <button id="reset" value="reset" class="resetbutton">Reset</button>
+
+    </div>
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
